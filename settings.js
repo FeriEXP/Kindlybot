@@ -29,7 +29,7 @@ global.my = {
 	yt: 'https://instagram.com/feey_riii',
 	gh: 'https://github.com/feriexp',
 	gc: 'https://chat.whatsapp.com/Bz8qSlQYfISCb48TH7vuAs',
-	ch: '120363250409960161@newsletter',
+	ch: 'https://instagram.com/feey_riii',
 }
 
 global.limit = {
