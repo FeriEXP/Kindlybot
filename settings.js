@@ -57,10 +57,10 @@ global.mess = {
 }
 
 global.APIs = {
-	zaynn: 'https://api.zaynn.my.id/api',
+	zaynn: 'https://api.zeeoneofc.my.id/api',
 }
 global.APIKeys = {
-	'https://api.zaynn.my.id/api': 'Najedev',
+	'https://api.zeeoneofc.my.id/api': 'Zfh7Tyq8KuWNnyr',
 }
 
 //~~~~~~~~~~~~~~~< PROCESS >~~~~~~~~~~~~~~~\\
