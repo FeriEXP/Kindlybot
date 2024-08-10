@@ -122,29 +122,29 @@ async function startNazeBot() {
 		if (connection === 'close') {
 			const reason = new Boom(lastDisconnect?.error)?.output.statusCode
 			if (reason === DisconnectReason.connectionLost) {
-				console.log('Connection to Server Lost, Attempting to Reconnect...');
+				console.log('Koneksi ke Server Hilang, Mencoba Menyambungkan Kembali...');
 				startNazeBot()
 			} else if (reason === DisconnectReason.connectionClosed) {
-				console.log('Connection closed, Attempting to Reconnect...');
+				console.log('Sambungan ditutup, Mencoba Menyambungkan Kembali...');
 				startNazeBot()
 			} else if (reason === DisconnectReason.restartRequired) {
-				console.log('Restart Required...');
+				console.log('Diperlukan Mulai Ulang...');
 				startNazeBot()
 			} else if (reason === DisconnectReason.timedOut) {
-				console.log('Connection Timed Out, Attempting to Reconnect...');
+				console.log('Waktu Sambungan Habis, Mencoba Menyambungkan Kembali...');
 				startNazeBot()
 			} else if (reason === DisconnectReason.badSession) {
-				console.log('Delete Session and Scan again...');
+				console.log('Hapus Sesi dan Pindai lagi...');
 				startNazeBot()
 			} else if (reason === DisconnectReason.connectionReplaced) {
-				console.log('Close current Session first...');
+				console.log('Tutup Sesi saat ini terlebih dahulu...');
 				startNazeBot()
 			} else if (reason === DisconnectReason.loggedOut) {
-				console.log('Scan again and Run...');
+				console.log('Pindai lagi dan Jalankan...');
 				exec('rm -rf ./nazedev/*')
 				process.exit(1)
 			} else if (reason === DisconnectReason.Multidevicemismatch) {
-				console.log('Scan again...');
+				console.log('Pindai lagi...');
 				exec('rm -rf ./nazedev/*')
 				process.exit(0)
 			} else {
