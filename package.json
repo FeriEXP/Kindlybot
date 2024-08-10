@@ -1,5 +1,5 @@
 {
-  "name": "hitori",
+  "name": "kindly",
   "version": "1.0.2",
   "description": "Bot WhatsApp Using Lib Baileys Multi Device",
   "main": "start.js",
@@ -109,10 +109,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nazedev/hitori.git"
+    "url": "git+https://github.com/FeriEXP/Kindlybot.git"
   },
   "bugs": {
-    "url": "https://github.com/nazedev/hitori/issues"
+    "url": "https://github.com/FeriEXP/Kindlybot/issues"
   },
-  "homepage": "https://github.com/nazedev/hitori#readme"
+  "homepage": "https://github.com/FeriEXP/Kindlybot#readme"
 }
